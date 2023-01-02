@@ -1,0 +1,374 @@
+/*=================Common Css================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*=================Short Design================*/
+
+li{
+    list-style: none;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 16px
+}
+button{
+    background: #e30613
+}
+button:hover{
+    background: #000
+}
+
+/*=================Header Design================*/
+
+.logoArea{
+    width: 20%;
+    margin: 17px 5px;
+}
+.logoArea img{
+    width: 100%
+}
+header.mainHeaderArea {
+    background: #000;
+}
+
+.headerWrapper {
+    display: table;
+}
+
+
+.mainMenuArea.col-sm-4 {
+    width: 67%;
+    float: left;
+}
+
+.mainMenuArea.col-sm-4 ul li {
+    float: left;
+    position: relative;
+}
+
+.mainMenuArea.col-sm-4 ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 26px 0px;
+    display: block;
+    font-weight: normal;
+    padding: 2px 30px;
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.mainMenuArea.col-sm-4 ul li input {
+    width: 130px;
+    margin: 24px 14px;
+    outline: none;
+    border: navajowhite;
+    color: #333;
+    padding: 2px 4px;
+    position: relative;
+}
+
+.iconArea.col-sm-4 {
+    width: 9%;
+}
+
+.mainMenuArea.col-sm-4 ul {
+    margin: 8px 52px;
+    z-index: 9;
+}
+
+.mainMenuArea.col-sm-4 ul li i {
+    color: #fff;
+    /* background: #000; */
+}
+.iconArea.col-sm-4 i {
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 14px;
+    padding: 3px;
+    margin: 32px 4px;
+    transition: .5s;
+}
+li.search_area {
+    overflow: hidden;
+}
+
+li.search_area i {
+    padding: 4px;
+    position: absolute;
+    content: "";
+    top: 28px;
+    margin-left: -39px;
+    font-size: 13px;
+    cursor: pointer;
+    background: #000;
+}
+
+.mainMenuArea.col-sm-4 ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+.mainMenuArea.col-sm-4 ul li a:hover .angle_design {
+    background: #fff;
+    color: #000;
+    transition: .2s;
+}
+
+.iconArea.col-sm-4 i:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+/*=================Dropdown Menu Design================*/
+
+.mainMenuArea.col-sm-4 ul ul {
+    position: absolute;
+    background: #fff;
+    padding: 0;
+    margin-top: -26px;
+    margin-left: -57px;
+    display: none;
+    z-index: 9;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a {
+    margin: 0;
+    color: #333;
+    padding: 5px 127px 0 8px;
+    display: block;
+    border: 1px solid #000;
+}
+.mainMenuArea.col-sm-4 ul li:hover a{
+    color: #000;
+    background: #fff
+}
+.mainMenuArea.col-sm-4 ul li:hover .angle_design{
+    color: #000;
+    background: #fff
+}
+
+.mainMenuArea.col-sm-4 ul ul li {
+    float: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(1) {
+    border-top: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(2) {
+    border-top: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(3) {
+    border-top: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(4) {
+    border-top: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(5) {
+    border-top: none;
+}
+
+.mainMenuArea.col-sm-4 ul ul li a:nth-child(6) {
+    border-top: none;
+}
+.mainMenuArea.col-sm-4 ul ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+/*=================Payment Design================*/
+
+.cart_wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.row.cart_w div button {width: 200px;margin: 15px 0;height: 50px;background: #000;color: #fff;transition: .2s;border: 1px solid #333;margin-left: 39px;}
+
+.row.cart_w {
+    margin: auto;
+}
+
+.row.cart_w div button:hover {
+    background: #000;
+    color: white;
+}
+
+.cartBtn.after1 {
+  position: relative;
+}
+.cartBtn.after1:after {
+  position: absolute;
+  content: "";
+  top: 24px;
+  left: 199px;
+  width: 98px;
+  background: #333;
+  border: 1px solid #333;
+}
+.form_payment_design {
+    width: 410px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.title_area {
+    width: 100%;
+}
+
+.title_area img {
+    width: 33%;
+}
+
+.title_area h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 37px;
+    margin-top: -7px;
+}
+
+form.form-login.logInDesign.text-center input {padding: 10px 10px;}
+
+.checkbox.mb-3 {
+    margin: 33px 0;
+    margin-top: 20px;
+}
+
+.checkbox.mb-3 {text-align: left;}
+
+button.btn.btn-primary.w-100 {
+    padding: 10px 0px;
+    font-weight: 500;
+}
+.checkbox.mb-3 input {margin-right: 10px;}
+
+.checkbox.mb-3 label {
+    font-weight: 500;
+}
+span.borderp {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #0B5ED7;
+    border-radius: 100%;
+    display: inline-block !important;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-left: 10px;
+    color: #0B5ED7;
+}
+
+p.bL {margin-top: 30px;text-align: left;color: #0B5ED7;cursor: pointer;}
+
+p.lP {
+    color: #0B5ED7;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+button.btn.btn-secondary.w-100 {
+    background: #ccc;
+    color: #333;
+    font-weight: 500;
+    margin-top: 14px;
+    border: none;
+    padding: 10px;
+}
+
+button.btn.btn-secondary.w-100:hover {
+    background: #0B5ED7;
+    color: #fff;
+}
+
+p.lL {
+    text-align: left;
+    color: #0d6efd;
+    margin-top: -14px;
+    cursor: pointer;
+}
+p {
+    font-size: 15px;
+}
+
+
+
+/*=================Footer Design================*/
+
+#footerArea {
+  background: #000;
+  margin-top: 60px;
+}
+.footerWrapper {
+  overflow: hidden;
+}
+
+.footerSingle.row {
+  margin-top: 30px;
+}
+.footerSingleBox.col-sm-3 h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.footerSingleBox.col-sm-3 p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 7px;
+}
+
+.customP {
+  line-height: 22px !important;
+  margin-bottom: 25px;
+}
+
+.footerSingleBox.col-sm-3 p i {
+	font-size: 11px;
+}
+
+.footerSingleBox.col-sm-3 a i {
+  color: black;
+  background: #fff;
+  font-size: 24px;
+  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  float: left;
+  margin-right: 18px;
+}
+
+/*copyright area*/
+
+.copyrightArea.row {
+  text-align: center;
+  margin: 40px 0px;
+}
+.copyrightArea.row b {
+  color: #fff;
+}
+.copyrightArea.row span {
+  font-size: 13px;
+  color: #fff;
+}
